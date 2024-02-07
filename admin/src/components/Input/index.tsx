@@ -107,7 +107,7 @@ const Input = ({
             ref={ref}
             readOnly
             endAction={
-              <FieldActionWrapper
+              !disabled && <FieldActionWrapper
                 onClick={() => {
                   const newUUID = v4()
                   onChange({ target: { value: newUUID, name }})
