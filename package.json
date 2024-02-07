@@ -8,6 +8,7 @@
     "kind": "plugin"
   },
   "dependencies": {
+    "@strapi/strapi": "^4.20.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
